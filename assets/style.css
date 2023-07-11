@@ -262,4 +262,5 @@
 .bpw-button, .bpw-button-alt:hover {
     background-color: #0c3461;
     transition: background-color .3s ease;
+    border: none;
 }
