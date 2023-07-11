@@ -71,6 +71,9 @@
     overflow-y: auto;
     text-align: center;
     width: 100%;
+    overflow: auto;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
 }
 
 .bpw-layout {
@@ -88,6 +91,10 @@
     background: #0b2443;
     padding-bottom: 20px;
 }
+
+.element::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, and Opera */
+  }
 
 .bpw-header-name {
     color: white;
