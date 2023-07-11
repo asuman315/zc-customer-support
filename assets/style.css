@@ -71,8 +71,8 @@
     overflow-y: auto;
     text-align: center;
     width: 100%;
-    -ms-overflow-style: none; /* IE and Edge */
-    scrollbar-width: none; /* Firefox */
+    /* -ms-overflow-style: none; /* IE and Edge */
+   /* scrollbar-width: none; Firefox */
 }
 
 .bpw-layout {
@@ -91,7 +91,7 @@
     padding-bottom: 20px;
 }
 
-.bpw-msg-list::-webkit-scrollbar {
+.bpw-msg-list::-webkit-scrollbar { /* hide the scrollable bar */
     display: none; /* Chrome, Safari, and Opera */
   }
 
@@ -256,4 +256,10 @@
     border: solid 3px rgb(13,45,85);
     padding: 12px;
     margin-top: 5px;
+}
+
+
+.bpw-button, .bpw-button-alt:hover {
+    background-color: #0c3461;
+    transition: background-color .3s ease;
 }
