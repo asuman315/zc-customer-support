@@ -41,6 +41,10 @@
     width: 100%;
 }
 
+.bpw-msg-list.bpw-composer textarea::-webkit-scrollbar { /* hide the scrollable bar */
+    display: none; /* Chrome, Safari, and Opera */
+  }
+
 .bpw-header-container {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
