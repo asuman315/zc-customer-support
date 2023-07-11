@@ -71,7 +71,6 @@
     overflow-y: auto;
     text-align: center;
     width: 100%;
-    overflow: auto;
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
 }
@@ -92,7 +91,7 @@
     padding-bottom: 20px;
 }
 
-.element::-webkit-scrollbar {
+.bpw-botinfo-container::-webkit-scrollbar {
     display: none; /* Chrome, Safari, and Opera */
   }
 
